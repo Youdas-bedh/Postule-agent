@@ -1,0 +1,4 @@
+# À installer dans le venv GPU isolé, jamais dans le venv de l'application Streamlit.
+# Qwen3.5 est pris en charge par vLLM stable à partir de la branche 0.18.
+vllm>=0.18,<0.31
+ninja>=1.11,<2
